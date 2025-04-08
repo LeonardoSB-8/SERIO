@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	height: 100vh;
+	background-color:rgb(255, 255, 255);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 15% 15%;
+	background-image: url("img/Spinner@1x-1.0s-200px-200px.svg")
+}
+
+/* main{
+	text-align: center;
+	background-color: beige;
+	width: 200px;
+	padding: 5px;
+	margin: auto;
+	border: 1px solid darkgoldenrod;
+	border-radius: 15px;
+} */
+
+button{
+	height: 2.2em;
+	width: 5.5em;
+	border: none;
+	color: white;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.iniciar_btn{
+	background-color: green;
+}
+.pausar_btn{
+	background-color: gray;
+}
+.parar_btn{
+	background-color: red;
+}
