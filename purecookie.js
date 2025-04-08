@@ -1,10 +1,10 @@
-// purecookie.js
+// purecookie.js -- https://ayltoninacio.com.br/blog/como-colocar-popup-aviso-cookies-privacidade-sem-plugins <--DiLÁ --
 
 // Defina as variáveis de texto para o aviso de cookies
 var purecookieTitle = "Cookies.";
-var purecookieDesc = "By using this website, you automatically accept that we use cookies.";
-var purecookieLink = '<a href="https://www.cssscript.com/privacy-policy/" target="_blank">What for?</a>';
-var purecookieButton = "Understood";
+var purecookieDesc = "Ao utilizar este site, você aceita automaticamente que utilizemos cookies.";
+var purecookieLink = '<a href="https://www.cssscript.com/privacy-policy/" target="_blank">Para que?</a>';
+var purecookieButton = "Aceito";
 
 // Função para fazer um elemento HTML aparecer com um efeito de fade-in
 function pureFadeIn(elementId, display) {
